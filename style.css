@@ -1,0 +1,10 @@
+#container {
+    display: flex;
+
+}
+
+.square {
+  flex: 1 0 6.25%;        /* 100 / 16 = 6.25% */
+  aspect-ratio: 1 / 1;    /* keeps the squares perfect */
+  border: 1px solid #ddd; /* optional grid lines */
+}

@@ -1,0 +1,1 @@
+const contaniner = document.getElementById("container")
