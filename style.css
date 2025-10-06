@@ -1,5 +1,8 @@
 #container {
     display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    
 
 }
 
@@ -7,4 +10,8 @@
   flex: 1 0 6.25%;        /* 100 / 16 = 6.25% */
   aspect-ratio: 1 / 1;    /* keeps the squares perfect */
   border: 1px solid #ddd; /* optional grid lines */
+}
+
+* {
+  box-sizing: border-box;
 }
